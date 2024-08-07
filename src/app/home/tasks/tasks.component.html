@@ -1,0 +1,5 @@
+<div class="tasks-container">
+  <div class="task" *ngFor="let item of tasks$ | async">
+      <app-task-card [task]="item"></app-task-card>
+  </div>
+</div>

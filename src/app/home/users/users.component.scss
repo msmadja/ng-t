@@ -1,0 +1,13 @@
+.users-container {
+  margin-top: 10px;
+  height: calc(100vh - 250px);
+  overflow-y: auto;
+  .users-table {
+    width: 100%;
+  }
+
+  .actions {
+    display: flex;
+    
+  }
+}
